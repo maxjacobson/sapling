@@ -15,10 +15,10 @@ fn list_dir(path: &Path, nesting: u32) {
         let entry_path = entry.path();
         let name_of_path = entry_path.as_path().to_str().unwrap();
         if entry_type.is_dir() {
-            println!("{} Dir: {}", padding, name_of_path);
+            println!("{}{}", padding, name_of_path);
             list_dir(entry.path().as_path(), nesting + 1);
         } else {
-            println!("{} File: {}", padding, name_of_path);
+            println!("{}{}", padding, name_of_path);
         }
     }
 }
