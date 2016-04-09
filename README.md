@@ -8,5 +8,6 @@ Wish me luck.
 
 ## Goals
 
-* [ ] get basic tree output
+* [x] get basic tree output
+* [ ] style it correctly
 * [ ] respect gitignore if present
