@@ -1,5 +1,5 @@
 [package]
-name = "mjtree"
+name = "twig"
 version = "0.1.0"
 authors = ["Max Jacobson <max@hardscrabble.net>"]
 
