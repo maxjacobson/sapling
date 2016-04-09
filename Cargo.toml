@@ -1,8 +1,8 @@
 [package]
-name = "twig"
+name = "sapling"
 version = "0.1.0"
 authors = ["Max Jacobson <max@hardscrabble.net>"]
-homepage = "https://github.com/maxjacobson/twig"
+homepage = "https://github.com/maxjacobson/sapling"
 license = "MIT"
 readme = "README.md"
 description = "Mini-version of the unix tree command"

@@ -1,4 +1,4 @@
-# tree
+# sapling
 
 This is my attempt to re-implement a simple version of `tree` in Rust.
 
