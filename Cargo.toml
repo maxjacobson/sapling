@@ -2,5 +2,9 @@
 name = "twig"
 version = "0.1.0"
 authors = ["Max Jacobson <max@hardscrabble.net>"]
+homepage = "https://github.com/maxjacobson/twig"
+license = "MIT"
+readme = "README.md"
+description = "Mini-version of the unix tree command"
 
 [dependencies]
