@@ -1,10 +1,6 @@
-use std::env::current_dir;
-use std::fs::read_dir;
-use std::path::Path;
-
 // TODO: add proper error handling?
-fn list_dir(path: &Path, nesting: u32) {
-    let entries = read_dir(path).unwrap();
+fn list_dir(path: &std::path::Path, nesting: u32) {
+    let entries = std::fs::read_dir(path).unwrap();
     let mut padding = "".to_owned();
     for _ in 0..nesting {
         padding.push(' ');
@@ -28,7 +24,7 @@ fn list_dir(path: &Path, nesting: u32) {
 }
 
 fn main() {
-    let dir = current_dir().unwrap();
+    let dir = std::env::current_dir().unwrap();
     let path = dir.as_path();
     list_dir(path, 0);
 }
