@@ -14,6 +14,11 @@ fn list_dir(path: &Path, nesting: u32) {
         let entry_type = entry.file_type().unwrap();
         let entry_path = entry.path();
         let name_of_path = entry_path.as_path().to_str().unwrap();
+        // FIXME: this should be based on the base, but we have an
+        // absolute path...
+        if name_of_path.chars().nth(0).unwrap() == '.' {
+            continue;
+        }
         if entry_type.is_dir() {
             println!("{}{}", padding, name_of_path);
             list_dir(entry.path().as_path(), nesting + 1);
