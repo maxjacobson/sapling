@@ -1,6 +1,6 @@
 [package]
 name = "sapling"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Max Jacobson <max@hardscrabble.net>"]
 homepage = "https://github.com/maxjacobson/sapling"
 license = "MIT"
