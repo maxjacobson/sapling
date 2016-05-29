@@ -2,9 +2,7 @@
 
 This is my attempt to re-implement a simple version of `tree` in Rust.
 
-This is my first rust program.
-
-Wish me luck.
+This is my first rust program. Wish me luck.
 
 ## installation
 
